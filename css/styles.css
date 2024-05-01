@@ -1,0 +1,100 @@
+html {
+    font-size: 16px;
+}
+body {
+    font-family: Montserrat;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    color: white;
+}
+
+main {
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.flex-container.logo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-container{
+    display: flex;
+    width: 100%;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.title {
+    padding: 0.5rem 2rem;
+}
+
+.logo-skills {
+    display: flex;
+    justify-content: center;
+    transition: transform 500ms;
+}
+
+.logo-skills:hover {
+    transform: scale(1.25)
+}
+
+/* .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    width: 100%;
+} */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#break-after-header {
+    border: 2px solid white;
+    position: fixed;
+    top: 90px;
+    width: 100%;
+}
