@@ -8,26 +8,46 @@
     <link href="/css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet">
+    <script src="./script.js"></script>
 </head>
 
 <body>
     <header>
-        <div class="flex-container">
+        <div id="header-container" class="flex-container">
+            <div class="title">
+                <h1>Fortunato Martin</h1>
+            </div>
             <nav class="flex-container">
-                <div class="title">
-                    <h1>Fortunato Martin</h1>
+                <div id="navigation-large-screen" class="flex-container">
+                    <ul class="navigation">
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
                 </div>
-                <ul class="navigation">
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
+                <div id="mobile">
+                    <div id="hamburger-container">
+                        <a id="menu-icon" href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                    <div id="navigation-mobile-screen" class="block-container">
+                        <ul class="navigation">
+                            <li><a href="#about-me">About Me</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </div>
+        <hr id="break-after-header">
     </header>
 
-    <hr id="break-after-header">
 
     <main>
         <section id="about-me">
@@ -64,15 +84,13 @@
                 <h2>Skills</h2>
                 <div class="flex-container logo">
                     <div class="logo-skills">
-                        <img id="html"
-                            src="images\icons8-html5-ios-17-filled\icons8-html5-100.png" />
+                        <img id="html" src="images\icons8-html5-ios-17-filled\icons8-html5-100.png" />
                     </div>
                     <div class="logo-skills">
                         <img id="css" src="images\icons8-css3-ios-17-filled\icons8-css3-100.png" />
                     </div>
                     <div class="logo-skills">
-                        <img id="javascript"
-                            src="images\icons8-javascript-ios-17-filled\icons8-javascript-100.png" />
+                        <img id="javascript" src="images\icons8-javascript-ios-17-filled\icons8-javascript-100.png" />
                     </div>
                     <div class="logo-skills">
                         <img id="nodejs" src="images\icons8-nodejs-windows\icons8-nodejs-96.png" />
@@ -81,8 +99,7 @@
                         <img id="sql" src="images\icons8-sql-ios-17-filled\icons8-sql-100.png" />
                     </div>
                     <div class="logo-skills">
-                        <img id="github"
-                            src="images\icons8-github-ios-17-filled\icons8-github-100.png" />
+                        <img id="github" src="images\icons8-github-ios-17-filled\icons8-github-100.png" />
                     </div>
                 </div>
             </div>
