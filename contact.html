@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="/css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="header-container" class="flex-container">
+            <div class="title">
+                <h1>Fortunato Martin</h1>
+            </div>
+            <nav class="flex-container">
+                <div id="navigation-large-screen" class="flex-container">
+                    <ul class="navigation">
+                        <li><a href="./index.html">About Me</a></li>
+                        <li><a href="./index.html#projects">Projects</a></li>
+                        <li><a href="./index.html#skills">Skills</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div id="mobile">
+                    <div id="hamburger-container">
+                        <a id="menu-icon" href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                    <div id="navigation-mobile-screen" class="block-container">
+                        <ul class="navigation">
+                            <li><a href="#about-me">About Me</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <hr id="break-after-header">
+    </header>
+
+
+    <main id="contact">
+        <section id="contact-section">
+            <div class="flex-container column">
+                <h2>Contact</h2>
+                <p>I'm really excited to become part of your team. Let's connect!</p>
+                <div class="flex-container contact">
+                    <div class="logo-contact">
+                        <a href="https://www.linkedin.com/in/natsmartin95/" target="_blank">
+                            <img id="linkedin" alt="linkedin logo"
+                            src="images\icons8-linkedin-ios-17-filled\icons8-linkedin-50.png"/>
+                        </a>
+                    </div>
+                    <div class="logo-contact">
+                        <a href="mailto:natsmartin95@gmail.com" target="_blank">
+                            <img id="gmail" alt="gmail logo"
+                            src="images\icons8-gmail-ios-17-filled\icons8-gmail-50.png" />
+                        </a>
+                    </div>
+                    <div class="logo-contact">
+                        <a href="https://github.com/natsmartin/" target="_blank">
+                            <img id="github" alt="github logo"
+                            src="images\icons8-github-ios-17-filled\icons8-github-50.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

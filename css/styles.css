@@ -52,6 +52,12 @@ section {
     display: block;
 }
 
+.flex-container.contact {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
 .flex-container.logo {
     display: flex;
     justify-content: space-around;
@@ -91,6 +97,17 @@ section {
     width: 100%;
 }
 
+.logo-contact {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    transition: transform 500ms;
+}
+
+.logo-contact:hover {
+    transform: scale(1.25)
+}
+
 .logo-skills {
     display: flex;
     justify-content: center;
@@ -118,6 +135,10 @@ a:hover {
     width: 100%;
 }
 
+#contact {
+    margin-top: 5rem;
+}
+
 #hamburger-container {
     display: none;
 }
@@ -138,6 +159,10 @@ a:hover {
     #break-after-header {
         top: 112px;
     }
+
+    #contact {
+        margin-top: 6.5rem;
+    }
 }
 
 /* @media only screen and (min-width: 425px) and (max-width: 767px) */
@@ -154,6 +179,10 @@ a:hover {
 
     #break-after-header {
         top: 75px;
+    }
+
+    #contact {
+        margin-top: 8rem;
     }
     
     #hamburger-container {
@@ -191,6 +220,10 @@ a:hover {
 
     #break-after-header {
         top: 105px;
+    }
+
+    #contact {
+        margin-top: 10rem;
     }
     
     #hamburger-container {
